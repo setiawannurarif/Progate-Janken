@@ -1,0 +1,12 @@
+/* @media all and (max-width: 1000px) {
+  .main {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+} */
+
+@media all and (min-width: 280px) {
+}

@@ -1,0 +1,138 @@
+@import url('./responsive.css');
+@import url('../view/credit/style_credit.css');
+@import url('../view/game/style_game.css');
+@import url('../view/game_menu/style_gameMenu.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: #afab1b;
+  /* overflow: hidden; */
+}
+
+.active {
+  display: block;
+}
+
+.disable {
+  display: none !important;
+}
+
+.container {
+  margin: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  margin: auto;
+  position: relative;
+  top: 160px;
+  width: min(392px, 95%);
+}
+
+.main img {
+  margin: auto;
+  width: min(250px, 95%);
+  height: auto;
+}
+
+.main h1 {
+  margin: auto;
+  position: relative;
+  width: min(392px, 95%);
+  height: 42px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: min(50px, 12vw);
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.btn {
+  position: relative;
+  margin: 22px auto;
+  width: min(176px, 65%);
+  height: auto;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.btn:active {
+  top: 2px;
+}
+
+.btn_primary {
+  background: #2a35af;
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.55);
+  border-radius: 35px;
+}
+
+.btn_primary:hover {
+  background-color: #afab1b;
+  border: 1px solid #2a35af;
+}
+
+.btn_primary a {
+  display: inline-block;
+  width: 100%;
+}
+
+.btn p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.divider {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  border: 2px solid #3c4bfa;
+  border-radius: 35px;
+}
+
+.footer {
+  margin: auto;
+  position: relative;
+  top: 336px;
+}
+
+.footer_content p {
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: min(14px, 70%);
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer_content a {
+  color: #ffffff;
+}
+
+.footer_content a:hover {
+  text-decoration: underline;
+}
+
+.footer_content .footer_content_credits:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
